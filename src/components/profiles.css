@@ -1,0 +1,62 @@
+.profiles{
+    padding: 40px 0;
+}
+.profiles .container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.profiles .profile{
+    width: 32%;
+}
+.profiles .profile .image_box{
+    padding: 25px 25px 0;
+    background-color: rgba(207, 206, 206, 0.295);
+    border-radius: 5px;
+}
+.profiles .profile .image1{
+    height: 58vh;
+    background-image: url(../assets/image2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.profiles .profile .image2{
+    height: 58vh;
+    background-image: url(../assets/image3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.profiles .profile .image3{
+    height: 58vh;
+    background-image: url(../assets/image4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+.profiles .profile .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 25px;
+}
+.profiles .profile h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.profiles .profile span{
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.profiles .profile .icons_profile{
+    display: flex;
+    gap: 15px;
+}
+.profiles .profile .icons_profile i{
+    font-size: 22px;
+}

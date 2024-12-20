@@ -1,0 +1,43 @@
+.icons2{
+    padding: 60px 0;
+}
+.icons2 .container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icons2 .icon{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.icons2 .icon:hover{
+    box-shadow: 0 0 5px 1px gray;
+}
+.icons2 .icon .box{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 7px solid  rgba(255, 255, 255, 0.774);
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+.icons2 .icon .box i{
+    font-size: 30px;
+    color: white;
+}
+.icons2 .icon h3{
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.icons2 .icon span{
+    font-size: 16px;
+}

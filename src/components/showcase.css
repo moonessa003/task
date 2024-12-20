@@ -1,0 +1,43 @@
+.showcase{
+    padding: 40px 0;
+    height: 91vh;
+}
+.showcase .container{
+    width: 90%;
+    margin: 0 auto;
+}
+.showcase .title{
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+.showcase .title span{
+    color: black;
+}
+.showcase .box{
+    height: 75vh;
+    display: flex;
+    
+}
+.showcase .text{
+    width: 50%;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 35px;
+    gap: 25px;
+}
+.showcase .text h2{
+    font-size: 45px;
+}
+.showcase .text p{
+    font-size: 17px;
+    line-height: 22px;
+}
+.showcase .image{
+    width: 50%;
+    background-image: url(../assets/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
